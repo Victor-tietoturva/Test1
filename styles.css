@@ -55,10 +55,11 @@ body {
 }
 
 .img_info {
-  width: 400px;
+  width: 220px;
   max-width: 100%;
   height: auto;
-  object-fit: contain;
+  object-fit: cover;
+  border-radius: 14px;
   margin-top: 1.2rem;
 }
 
@@ -70,10 +71,11 @@ body {
 }
 
 .skill {
+  margin: 0;
   padding: 18px;
+  height: auto;
   border-radius: 12px;
   background-color: #ffffff;
-  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -91,7 +93,7 @@ body {
 }
 
 .paragraph {
-  margin: 20px 0 16px;
+  margin-top: 20px;
   line-height: 1.6;
 }
 
@@ -161,4 +163,7 @@ body {
     width: 280px;
   }
 }
+
+}
+
 
